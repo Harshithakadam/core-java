@@ -25,7 +25,7 @@ class FlipKart1{
 	  return result;
 	}
 	public String search(String brand,String color,String oS,double price,boolean isScreenTouch){
-	  String result="brand:"+brand+ "\ncolor:"+color+"\noS:"+oS+" \nprice:"+price+"\nisAutomatic:"+isScreenTouch;
+	  String result="brand:"+brand+ "\ncolor:"+color+"\noS:"+oS+" \nprice:"+price+"\nisScreenTouch:"+isScreenTouch;
 	  return result;
 	}
 	
